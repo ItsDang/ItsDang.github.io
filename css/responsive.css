@@ -1,0 +1,90 @@
+/*style changes for screens bigger than 480*/
+@media screen and (min-width: 480px) {
+	/**********************************
+	CONTACT TWO COLUMN LAYOUT
+	***********************************/
+	#contactfirst {
+		width: 50%;
+		float: left;
+	}
+	#contactsecond {
+		width: 40%;
+		float: right;
+	}
+
+	/**********************************
+	CREATIONS TWO COLUMN LAYOUT
+	***********************************/
+
+	#creations li {
+		width: 45%;
+	}
+
+	#creations li:nth-child(2n+1) {
+		clear: left;
+	}
+
+	/**********************************
+	ABOUT TWO COLUMN LAYOUT
+	***********************************/
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+}
+
+/*style changes for screens bigger than 660*/
+@media screen and (min-width: 660px) {
+
+	/**********************************
+	HEADER
+	***********************************/
+	
+	nav {
+		background: none;
+		float: right;
+		float: right;
+		font-size: 1.125em;
+		margin-top: 15px; 
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 50px;
+	}
+
+	/**********************************
+	CREATIONS THREE COLUMN LAYOUT
+	***********************************/
+	#creations li {
+		width: 28.333%;
+	}
+
+	#creations li:nth-child(2n+1) {
+		clear: none;
+	}
+
+	#creations li:nth-child(4n) {
+		clear: left;
+	}
+}
