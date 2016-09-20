@@ -1,0 +1,62 @@
+#wrapper {
+	min-width: 250px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #6ab47b;
+}
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+
+h1 {
+	font-family: 'Poiret One', cursive, sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+
+#sidebar {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	max-width: 125px;
+	background: black;
+}
+
+#aside {
+	display: inline-block;
+	float: right;
+	width: 60%;
+	/*min-width: 150px;*/
+	background: orange;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
