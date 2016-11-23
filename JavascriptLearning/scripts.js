@@ -16,3 +16,4 @@ var university;
 var degree;
 var sponsorship;
 var linkedIn;
+console.log( parseInt( '.5 FTE' ));

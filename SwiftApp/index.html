@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/main.css">
-  <title>What's wrong with this script?</title>
- </head>
-<body>
-  <div class="container">
-  <!-- <h1>Can you get the JavaScript to work?</h1> -->
-  <script src="scripts.js"></script>
-  </div>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <form action="index.html" method="post">
+            <h1>Swift App</h1>
+                <fieldset>
+                    <legend><span class="number">1</span>Required Information</legend>
+                    <label for="fname">First Name</label>
+                    <input type="text" id = "fname" name="FirstName">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id = "lname" name="LastName">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label>Able to work in US</label>
+                    <input type="radio" id="yes" value = "yes" name="US">
+                    <label for="yes" class="light">Yes</label>
+                    <br>
+                    <input type="radio" id="no" value = "no" name="US">
+                    <label for="no" class="light">No</label>
+                </fieldset>
+                <fieldset>
+                    <legend><span class="number">2</span>Additional Information</legend>
+                    <label>Resume</label>
+                    <input type="file" id="resume" name="resume">
+                    <label>Cover Letter</label>
+                    <input type="file" id="coverletter" name="coverletter">
+                </fieldset>
+                <!-- <label for="companies">Companies</label> -->
+                <fieldset>
+                    <legend><span class="number">3</span>Companies</legend>
+                    <select>
+                        <option value="Airbnb">Airbnb</option>
+                        <option value="Dropbox">Dropbox</option>
+                        <option value="Twitter">Twitter</option>
+                    </select>
+                </fieldset>
+                
+            <button type="submit">Submit</button>
+        </form>
+    </body>
 </html>
