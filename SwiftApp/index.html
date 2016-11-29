@@ -11,7 +11,7 @@
     <body>
         <form action="index.html" method="post">
             <h1>Swift App</h1>
-                <fieldset>
+                <fieldset id="required">
                     <legend><span class="number">1</span>Required Information</legend>
                     <label for="fname">First Name</label>
                     <input type="text" id = "fname" name="FirstName">
@@ -28,7 +28,7 @@
                     <input type="radio" id="no" value = "no" name="US">
                     <label for="no" class="light">No</label>
                 </fieldset>
-                <fieldset>
+                <fieldset id="additional">
                     <legend><span class="number">2</span>Additional Information</legend>
                     <label>Resume</label>
                     <input type="file" id="resume" name="resume">
@@ -36,7 +36,7 @@
                     <input type="file" id="coverletter" name="coverletter">
                 </fieldset>
                 <!-- <label for="companies">Companies</label> -->
-                <fieldset>
+                <fieldset id="companies">
                     <legend><span class="number">3</span>Companies</legend>
                     <!-- <select>
                         <option value="Airbnb">Airbnb</option>
@@ -54,7 +54,9 @@
                     <!-- <br> -->
                 </fieldset>
                 
-            <button type="submit">Subsmit</button>
+            <!-- <button type="submit" id="SubmitButton">Submit</button> -->
+            <button type ="button" id="SubmitButton">Submit</button> <!-- if no types is defined it will automatically refresh the page onclick. -->
+            <script type="text/javascript" src="scripts.js"></script>
         </form>
     </body>
 </html>
