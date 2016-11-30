@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign Up Form</title>
+        <title>SwiftApp</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
@@ -11,6 +11,7 @@
     <body>
         <form action="index.html" method="post">
             <h1>Swift App</h1>
+            <h3>This web app is supposed to read in common fields for a software engineering internship application and autofill them in the sites selected. However, it is mainly incomplete as it cannot actually autofill, it can read in the fields and open the sites but cannot modify them.</h2>
                 <fieldset id="required">
                     <legend><span class="number">1</span>Required Information</legend>
                     <label for="fname">First Name</label>
@@ -45,9 +46,13 @@
                     <br>
                     <input type="checkbox" id="Twitter" value="https://careers.twitter.com/en/work-for-twitter/university-application-full-time-internship.html" name="companies">
                     <label class="light" for="Twitter">Twitter</label>
-                    <!-- <br> -->
                 </fieldset>
             <button type ="button" id="SubmitButton">Submit</button>
+            <h3></h3>
+            <footer>
+                <a href="https://github.com/ItsDang"><img src="img/GitHubMark120.png" alt="GitHub Logo" class="social-icon"></a>
+                <p>&copy; 2016 Matthew Dang.</p>
+            </footer>
             <script type="text/javascript" src="scripts.js"></script>
         </form>
     </body>
